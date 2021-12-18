@@ -6,6 +6,11 @@ this is application to detect circle on log (wood) and detect rectangle iron on 
 - detect circle on log (wood)
 - be able to know number of circle of wood log
 
+## what used
+- this repo using `opencv` to load image
+- using `cv2.HoughCircles` to detect the circles
+- using `opencv` to write the text as well
+
 ## current problem
 - can not detect the rectangle iron on wood truck
 - the less number of circle detected
@@ -16,7 +21,7 @@ this is application to detect circle on log (wood) and detect rectangle iron on 
 ## how to run
 1. make sure python is installed.
 2. make sure library for `fire`, `opencv`, `numpy` are installed too
-3. please clone the repo
+3. please clone the repo `git clone git@github.com:ikhsanrahman/task-image-processing.git`
 4. run `python main.py run --image <image.png>`
 
 ## the current result
